@@ -6,10 +6,10 @@ import pytz
 
 app =Flask(__name__)
 
-token = "bot248965:6fb76dfd-667d-4e1d-9644-daee02b47469"
+token = ""
 bot = EitaaBot(token=token)
 
-chat_id = "10462629"
+chat_id = "id"
 
 utc_now = datetime.now(pytz.utc)  
 tehran_tz = pytz.timezone('Asia/Tehran') 
